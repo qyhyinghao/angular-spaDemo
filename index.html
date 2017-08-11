@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+    
+    <a href="#!/friend">朋友</a>
+    <a href="#!/music">音乐</a>
+    <a href="#!/school">学校</a>
+    
+    <!-- 模板插入的地方 -->
+    <div ng-view></div>
+
+    <script src="./js/angular.js"></script>
+    <script src="./js/angular-route.js"></script>
+    <script src="./friend/friend.js"></script>
+    <script src="./music/music.js"></script>
+    <script src="./school/school.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
